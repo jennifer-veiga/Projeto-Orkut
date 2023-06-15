@@ -1,0 +1,217 @@
+header.menu{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.description div {
+    display: flex;
+    margin: 0 5px;
+    display: inline-block ;
+}
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 15px;
+}
+
+.counter__community {
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 300%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.photo{
+    height: 550px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__avatar > img{
+    border-radius: 15px;
+}
+
+.photo__tools > div > i {
+    margin-right: 15px;
+}
+
+.photo__name > h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.description{
+    height: 600px;
+    width: 500px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    border-top-right-radius: 70px;
+}
+
+
+.counter__friend{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.counter__friend > img{
+    width: 120px;
+    margin-left:10px;
+}
+
+.counter__community{
+    height: 700px;
+    width: 500px;
+}
+
+.counter__community > img{
+    width: 120px;
+    margin-left: 10px;
+}
+
+.counter__community >p, h3{
+    margin-left: 15px;
+}
+
+header > nav{
+    color: #FFFFFF;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > nav > #title > h1{
+    font-size: 38px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+header > nav > #princesa > label{
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+:root{
+    background-color: #e4b7dd;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.orkut-font-color{
+    color: #E8258E;
+}
+
+.orkut-font-default{
+    color: rgb(28, 28, 28);
+}
+
+.orkut-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.orkut-button-bg{
+    background-color: #E8258E;
+    cursor: pointer;
+}
+
+.communities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.commmunites{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.counter__community > .communities > div > img{
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.counter__community > .commmunites > div > img{
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.counter > .counter__friend{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(121, 121, 121);
+    width: 100%;
+    height: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .counter > .counter__friend > div{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .counter > .counter__friend > div > img{
+    height: 140px;
+    width: 145px;
+    margin-left:10px;
+    border-radius: 7px;
+  }
+
+    .counter__community >h3{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    
+    .counter > .counter__community > .communities > div{
+        display: inline-block;
+        margin: 3px;
+        margin-left: 7px;
+    }
+      
+    .counter > .counter__community > .communities > div > img{
+        height: 140px;
+        width: 145px;
+        margin-left:10px;
+        border-radius: 9px;
+    }
+    
+    .counter > .counter__community > .commmunites > div{
+        display: inline-block;
+        margin: 3px;
+        margin-left: 7px;
+    }
+      
+    .counter > .counter__community > .commmunites > div > img{
+        height: 140px;
+        width: 145px;
+        margin-left:10px;
+        border-radius: 7px;
+    }
